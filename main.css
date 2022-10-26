@@ -1,0 +1,141 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    margin: 13px auto 15px;
+}
+
+.header-list {
+    display: flex;
+    gap: 62px
+}
+
+.header-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #1C1C1C;
+    text-decoration: none;
+}
+
+.header-button {
+    width: 157px;
+    height: 40px;
+    border-radius: 20px;
+    background: #6F2CFF;
+    color: #fff;
+    font-size: 14px;
+    line-height: 14px;
+    border: none;
+}
+
+.header-button:hover, .main-button:hover, .footer_button:hover {
+    background: #5100ff;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.main {
+    background: linear-gradient(92.8deg, #F6BED9 44.92%, rgba(246, 190, 217, 0) 122.13%);
+    padding: 58px 0 59px;
+    max-height: 100%;
+}
+
+.offer {
+    margin: auto 0;
+}
+
+.main-button {
+    width: 187px;
+    height: 45px;
+    border-radius: 20px;
+    background: #6F2CFF;
+    color: #fff;
+    font-size: 14px;
+    line-height: 14px;
+    border: none;
+    margin-left: 9px;
+}
+
+.main-title {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 61px;
+    max-width: 450px;
+}
+
+.main-title-color {
+    color: #6F2DFF;
+}
+
+.main-text {
+    font-size: 18px;
+    line-height: 30px;
+    max-width: 440px;
+    margin: 18px 0;
+}
+
+.main-text-bold {
+    font-weight: 700;
+}
+
+.main-input {
+    width: 268px;
+    height: 45px;
+    border: 1px solid #6F2CFF;
+    border-radius: 28px;
+    padding-left: 26px;
+}
+
+.main-input::placeholder {
+    color: rgba(0, 0, 0, 0.27);
+    font-size: 15px;
+    line-height: 21px;
+}
+
+.main-input:focus {
+    outline: none;
+}
+
+.footer {
+    background: #20003C;
+    padding: 58px 0;
+}
+
+.footer_list {
+    display: flex;
+    gap: 74px;
+}
+
+.footer_list_link {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer_button {
+    width: 157px;
+    height: 40px;
+    border-radius: 20px;
+    background: #6F2CFF;
+    color: #fff;
+    font-size: 14px;
+    line-height: 14px;
+    border: none;
+}
